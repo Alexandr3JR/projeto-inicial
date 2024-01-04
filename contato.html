@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formlario de contato</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(99deg, rgb(255, 98, 0) 14.7%, rgb(47, 0, 255) 73%);
+        }
+        .box {
+            color: white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 15px;
+            border-radius: 15px;
+            width: 20%;
+        }
+        fieldset{
+            border: 3px solid rgb(203, 99, 0);
+        }
+        legend{
+            border: 1px solid rgb(203, 99, 0);
+            padding: 10px;
+            text-align: center;
+            background-color: orange;
+            border-radius: 8px;
+        }
+        .inputbox{
+            position: relative;
+        }
+        .inputUser{
+            background: none;
+            border: none;
+            border-bottom: 1px solid white;
+            outline: none;
+            color: white;
+            font-size: 15px;
+            width: 100%;
+        }
+        .labelinput{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            pointer-events: none;
+            transition: .5s;
+        }
+        .inputUser:focus ~ .labelinput,
+        .inputUser:valid ~ .labelinput{
+            top: -20px;
+            font-size: 12px;
+            color: orange
+        }
+        #submit{
+            border: 3px solid rgb(255, 138, 28);
+            width: 100%;
+            border: none;
+            padding: 15px;
+            cursor: pointer;
+            color: orange;
+            border-radius: 10px;
+            font-size: 15px;
+        }
+
+        .personagem1 {
+            width: 100%;
+            height: 430px;
+            margin: 0%;
+            position: absolute;
+            right: 300px;
+            top: 50px; 
+        }
+
+        .personagem2 {
+            width: 90%;
+            height: 400px;
+            margin: 0%;
+            position: absolute;
+            left: 320px;
+            top: 50px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="box"> 
+        <form action="">
+            <fieldset>
+                <legend><b>formulario</b></legend>
+                <br>
+                <div class="inputbox">
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                    <label for="nome" class="labelinput">nome completo</label>
+                </div>
+                <br>
+                <div class="inputbox">
+                    <input type="text" name="email" id="email" class="inputUser" required>
+                    <label for="email" class="labelinput">email</label>
+                </div>
+                <br>
+                <div class="inputbox">
+                    <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                    <label for="telefone" class="labelinput">telefone</label>
+                </div>
+                <br>
+                <p>Sexo</p>
+                <input type="radio" id="Feminino" nome="genero" value="Feminino" required>
+                <label for="Feminino">Feminino</label>
+                <input type="radio" id="Masculino" nome="genero" value="masculino" required>
+                <label for="Masculino">masculino</label>
+                <input type="radio" id="outro" nome="genero" value="outro" required>
+                <label for="outro">Outro</label>
+                <div class="inputbox">
+                    <label for="data de nascimento"><B>Data de nascimento</B></label>
+                    <input type="date" name="data de nascimento" id="data de nascimento" class="inputUser" required>
+                </div>
+                <br>
+                <div class="inputbox">
+                    <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                    <label for="cidade" class="labelinput">cidade</label>
+                </div>
+                <br>
+                <div class="inputbox">
+                    <input type="text" name="Estado" id="Estado" class="inputUser" required>
+                    <label for="Estado" class="labelinput">Estado</label>
+                </div>
+                <br>
+                <div class="inputbox">
+                    <input type="text" name="Endereço" id="Endereço" class="inputUser" required>
+                    <label for="Endereço" class="labelinput">Endereço</label>
+                    <input type="submit" name="submit" id="submit">
+                </div>
+                <br>
+            </fieldset>
+        </form>
+        <img src="goku1.png" alt="Goku" class="personagem1" />
+<img src="vegeta2.png" alt="Vegeta" class="personagem2" />
+       
+    </div>
+    
+</body>
+</html>

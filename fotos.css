@@ -1,0 +1,111 @@
+* {
+    margin-top: 0%;
+    padding: 0%;
+    background: linear-gradient(99deg, rgb(12, 12, 12) 14.7%, rgb(7, 32, 85) 73%);
+    
+}
+
+#logo {
+    width: 20%;
+    height: 70px;
+    display: block;
+    margin: auto;
+}
+h1 {
+    display: block;
+    color: rgb(40, 176, 255);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid #000000;
+    padding: 1px;
+ }
+
+ .foto1 {
+    width: 350px;
+    border: 2px solid;
+    border-radius: 40px;
+    border-color: #000000;
+ }
+
+ .foto2 {
+    width: 330px;
+    border: 2px solid;
+    border-radius: 40px;
+    border-color: #000000;
+ }
+
+ .foto3 {
+    width: 370px;
+    border: 2px solid;
+    border-radius: 40px;
+    border-color: #000000;
+ } 
+
+ .foto4 {
+    width: 345px;
+    border: 2px solid;
+    border-radius: 40px;
+    border-color: #000000;
+ }
+
+ .foto5 {
+    width: 345px;
+    border: 2px solid;
+    border-radius: 40px;
+    border-color: #000000;
+ }
+
+ .foto6 {
+    width: 365px;
+    border: 2px solid;
+    border-radius: 40px;
+    border-color: #000000;
+ }
+ 
+ .foto7{
+    width: 345px;
+    border: 2px solid;
+    border-radius: 40px;
+    border-color: #000000;
+ }
+
+ .foto8{
+    width: 340px;
+    height: 170px;
+    border: 2px solid;
+    border-radius: 40px;
+    border-color: #000000;
+ }
+
+ .foto9{
+    width: 340px;
+    border: 2px solid;
+    border-radius: 40px;
+    border-color: #000000;
+ }
+
+ .foto10{
+   width: 340px;
+   border: 2px solid;
+   border-radius: 40px;
+   border-color: #000000;
+}
+
+.foto11{
+   width: 290px;
+   border: 2px solid;
+   border-radius: 40px;
+   border-color: #000000;
+}
+
+.foto13{
+   width: 320px;
+   border: 2px solid;
+   border-radius: 40px;
+   border-color: #000000;
+}
+
+ 
+ 
+ 
+ 

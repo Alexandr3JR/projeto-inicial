@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2? family= Anton & family= Bebas+Neue & family= Dhurjati & display=swap');
+
+* {
+    background: linear-gradient(99deg, rgb(255, 25, 0) 14.7%, rgb(100, 97, 255) 73%);
+}
+
+#logo {
+    width: 20%;
+    height: 70px;
+    display: block;
+    margin: auto;
+}
+
+.png1 {
+    width: 350px;
+    border: 2px solid;
+    border-radius: 40px;
+    border-color: #000000;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR028JIv33XvAaK3UE9sBlV3amLs6v9sVg5G_yZVUri36Yw1QN86yP6NCrYslP3FD62kQc&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    position: absolute;
+    left: 400px;
+    top: 70px;
+    width: 38%;
+    height: 100px;
+    color: aliceblue;
+    text-align: left;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: #000000;
+    padding: 55px;
+}
