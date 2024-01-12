@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2? family= Anton & family= Bebas+Neue & family= Dhurjati & display=swap');
 
 * {
-    background: linear-gradient(99deg, rgb(255, 25, 0) 14.7%, rgb(100, 97, 255) 73%);
+   background-image: url(https://i.pinimg.com/736x/0e/c8/b4/0ec8b4bfa6886d1128eee9e1c923b6cf.jpg);
 }
 
 #logo {
@@ -16,7 +16,7 @@
     border: 2px solid;
     border-radius: 40px;
     border-color: #000000;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR028JIv33XvAaK3UE9sBlV3amLs6v9sVg5G_yZVUri36Yw1QN86yP6NCrYslP3FD62kQc&usqp=CAU);
+    background-image: url(https://w0.peakpx.com/wallpaper/438/129/HD-wallpaper-dragon-ball-kame-house.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -25,12 +25,51 @@ p {
     position: absolute;
     left: 400px;
     top: 70px;
-    width: 38%;
+    width: 50%;
     height: 100px;
     color: aliceblue;
     text-align: left;
     border: 2px solid;
-    border-radius: 10px;
+    border-radius: 100px;
     border-color: #000000;
     padding: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://a-static.mlcdn.com.br/470x352/papel-de-parede-adesivo-liso-laranja-fosco-contact/reidaoferta/8806/4ddab5e0f7bceeabd6b512cd9b71cd46.jpeg);
 }
+
+.gokufases {
+    width: 65%;
+    border: 2px solid;
+    border-radius: 40px;
+    border-color: #000000
+}
+
+.vegetabase 
+    {
+        width: 350px;
+        border: 2px solid;
+        border-radius: 40px;
+        border-color: #000000;
+        background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/84dc13b7-a2e7-4b45-83ec-311e72e82900/ddfes8u-7a49022e-7074-451a-92b5-05f0af7d45ab.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzg0ZGMxM2I3LWEyZTctNGI0NS04M2VjLTMxMWU3MmU4MjkwMFwvZGRmZXM4dS03YTQ5MDIyZS03MDc0LTQ1MWEtOTJiNS0wNWYwYWY3ZDQ1YWIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Rk7wKj5sdRrTdZ5BwZZpwVKqwLnxCVH4P_EHFaLdNv0);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    p2 {
+        position: absolute;
+        color: aliceblue;
+        left: 360px;
+        text-align:left ;
+        border: 2px solid;
+        border-radius: 100px;
+        border-color: #000000;
+        padding: 55px;
+        background-image: url(https://www.10wallpaper.com/wallpaper/1920x1080/1611/Lines_strokes_blue_background-Vector_Design_HD_Wallpaper_1920x1080.jpg);
+    }
+
+    .vegetafases {
+        width: 65%;
+        border: 2px solid;
+        border-radius: 40px;
+        border-color: #000000
+    }
